@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainontainer">
+        <div class="childcontainer">
+            <div class="data">
+                <p id="temperature">
+                </p>
+                <p id="place"></p>
+                <p id="time&date">
+                </p>
+                <img id="icon" src="">
+                </img>
+                <p id="type">
+                </p>
+            </div>
+            <nav>
+                <div style="display: flex; flex-direction: row;">
+                    <input id="inputname" type="text" placeholder="search" required />
+                    <button onclick="searchdata()" style="padding-right: 2%;">Search</button>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
